@@ -93,10 +93,28 @@
 			Dependiendo de cómo se contrate el transporte existen dos formas de pago: por parte del remitente, del destinatario o respecto de una determinada proporción. Actualmente el método más utilizado es el de pago por parte del destinatario pero aún así existen casos especiales en los que no. También existen dos métodos de calcular el precio del transporte: aplicando una tarifa fija (lo cual muchas veces infla los costes de manera innecesaria) o teniendo en cuenta la distancia recorrida desde el origen hasta el destino. Uno de los problemas actuales es el de calcular penalizaciones y recompensas por el tiempo de transporte así como el periodo de tiempo que transcurre durante la carga y descarga de la mercancía.
 
 			\paragraph{}
-			La solución que se propone es crear un servicio encargado de conectar a transportistas con remitentes y destinatarios de manera eficiente y automática tratando de reducir los costes entre intermediarios, dando lugar a un mayor beneficio para el transportista y un menor coste para el remitente/destinatario. En la siguiente sección se describirá más detalladamente tanto las acciones como la descripción de cada uno de los usuarios objetivo.
+			La solución que se propone es crear un servicio encargado de conectar a transportistas con remitentes y destinatarios de manera eficiente y automática tratando de minimizar los costes entre intermediarios, dando lugar a un mayor beneficio para el transportista y un menor coste para el remitente/destinatario. En la siguiente sección se describirá más detalladamente tanto las acciones como la descripción de cada uno de los usuarios objetivo.
 
 			\paragraph{}
 			El servicio seguirá una idea similar a la de Uber \copyright\  con el transporte de pasajeros pero aplicado al campo de las mercancías (siempre siguiendo la vigente normativa). Ya existen algunas start-ups que pretenden hacerse un hueco en este nicho de mercado entre las que destacan Convoy \copyright\ y Trucker Path \copyright\ las cuales se basan en una aplicación para sistemas móviles. \cite{expansion_uber_transporte}
+
+			\paragraph{}
+			Los usuarios del sistema podran realizar las siguientes acciones:
+
+			\begin{itemize}
+
+				\item Los usuarios se registran en el sistema diferenciando su rol (remitente/destinatario o transportista)
+
+				\item Los remitentes pueden crear envíos en el sistema para que los transportistas les oferten un precio por llevarlo a cabo.
+
+				\item Los remitentes/destinatarios seleccionarán al transportita que deseen de entre los que han aceptado la oferta.
+
+				\item Una vez confirmado el envío los remitentes/destinatarios pueden monitorizar el envío
+
+				\item Los transportistas pueden buscar envíos que realizar introducciendo su posición geográfica y el sistema devolverá un listado con los más cercanos.
+
+				\item Todos los usuarios del sistema pueden comentar en la página del envío para comunicarse entre sí.
+			\end{itemize}
 
 
 
@@ -106,10 +124,10 @@
 			Los usuarios objetivo del servicio serán los siguientes:
 
 			\begin{itemize}
-				
+
 				\item{\textbf{Remitente}}
 				\newline
-				El remitente será la persona de crear el envío. Debido a esto es quien debe introducir todos los datos de dirección, tanto los suyos para que el transportista pueda recoger el envío, como los del destinatario para que este pueda llegar hasta él. Además será también el que seleccione el método de pago para luego proceder al pago según la opción seleccionada, bien por parte del propio remitente o por parte del destinatario. El precio no es algo que se fijará "a priori", sino que será después cuando los transportistas encuentren el envío cuando pujarán por un precio de transporte. Tendra la capacidad de monitorizar el estado del envío.
+				El remitente será la persona de crear el envío. Debido a esto es quien debe introducir todos los datos de dirección, tanto los suyos para que el transportista pueda recoger el envío, como los del destinatario para que este pueda llegar hasta él. Además será también el que seleccione el método de pago para luego proceder al pago según la opción seleccionada, bien por parte del propio remitente o por parte del destinatario. El precio no es algo que se fijará "a priori", sino que será después cuando los transportistas encuentren el envío cuando pujarán por un precio de transporte. Tendrá la capacidad de monitorizar el estado del envío.
 
 				\item{\textbf{Transportistas}}
 				\newline
