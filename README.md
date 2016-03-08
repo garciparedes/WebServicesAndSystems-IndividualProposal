@@ -1,1 +1,1 @@
-# WebServicesAndSystems-IndividualProposal
+# WebServicesAndSystems-GroupProposal
